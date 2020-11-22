@@ -38,6 +38,7 @@ describe("Filter the computer list", () => {
             .then((DownloadChrome => assert.strictEqual(DownloadChrome), "Download Chrome"))
             .then(() => driver.findElement(By.id("js-accept-install--linux")).click())
             .then((AcceptAndInstall) => assert.strictEqual("Accept and Install"))
+            //.then(() => driver.findElement(By.))
             
             //assert.isString('chr-homepage-hero__download chr-grid-child')
             //.then(() => driver.findElement('js-download-hero')).click())
